@@ -1,0 +1,6 @@
+services:
+  web_boleta:
+    build: .
+    container_name: contenedor_pagina_boletas
+    ports: -"8082:80"
+    restart: always
